@@ -1,0 +1,132 @@
+{
+    margin: 0;
+    padding: 0;
+}
+#main-body
+{   margin: 0;
+    padding: 0;
+    background-color: #ffca4b;
+}
+
+header
+{
+    margin: auto;
+    font-size: 4rem;
+    text-align: center;
+    font-family:'Roboto', sans-serif;
+    font-weight: bold;
+    color: black;
+    margin-top: 5rem;
+}
+
+
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+     font-family:'Roboto', sans-serif; 
+     border-radius: 10px;
+     box-shadow: 5px 5px black;
+
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-family:'Roboto', sans-serif;
+    padding: 16px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+   
+  }
+  .dropdown-content a:hover {background-color: #ddd;}
+  .dropdown:hover .dropdown-content {display: block;}
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+
+
+
+.screenshot
+{
+    display: flex;
+    width: 40vw;
+    justify-content: center;
+    margin: auto;
+    margin-top: 3%;
+    padding: 20px;    
+    -webkit-filter: grayscale(100%);
+	filter: white scale(100%);
+	-webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;  
+    border-radius: 40px;
+    box-shadow: 5px 5px white;
+}
+.screenshot:hover:hover {
+	-webkit-filter: grayscale(0);
+	filter: #ffd152 scale(0);
+}
+
+.screenshot1
+{
+    display: flex;
+    width: 40vw;
+    justify-content: center;
+    margin: auto;
+    padding: 20px;   
+    box-shadow: 5px 5px white; 
+    border-radius: 40px;
+
+}
+
+
+.info
+{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 20px;
+    text-align: center;   ;
+    text-indent: 20px; 
+    color: black;
+    font-size: 20px;
+    width: 40em;
+}
+
+
+.contatiner 
+{
+    display: flex;
+    flex-direction: row;
+    
+}
+.contatiner1
+{
+    display: flex;
+    flex-direction: row;
+    transition: transfrom 2s;
+}
+.contatiner2
+{
+    margin-top: 5%;
+    
+}
+
+

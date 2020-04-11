@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Accueil.css">
+    <title>portfolio</title>
+</head>
+<body id="home">
+
+    <!-- navbar  -->
+
+    <nav id="navbar">
+        <h2><a href="#Home"><span class="text-primary1">Baktash Waqibeen</span></a></h2>
+        <h2><a href="#Home"><span class="text-primary"></span></a></h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <div class="dropdown">
+                <button class="dropbtn">Three best projects</button>
+                <div class="dropdown-content">
+                  <a href="project1.html">IDE</a>
+                  <a href="project2.html">Mdenuiserie</a>
+                  <a href="project3.html">BTP</a>
+                </div>
+              </div>
+
+        </ul>
+    </nav>
+
+    <!-- shocase -->
+    <header id="showcase">
+        <div class="showcase-content">
+            <div class="container">
+                <h1>I'M A FULL TIME <br> <span class="text-primary">WEB-DEVELOPER</span></h1>
+                <a href="#about" class="btn">FIND OUT NOW</a>
+            </div>
+        </div>
+
+    </header>
+    <!-- SECTION ABOUT  -->
+        
+    <section id="about">
+             <div class="container">
+                 <h2 class="about-heading">Get to know <span class="text-primary">me</span></h2>
+                 <div class="about-content">
+                     <div class="about-text">
+                     <h3>A Litle bit <span class="text-primary">About myself</span></h3>
+                     <p class="lead">My name is Bektash Waqibeen, I'm a professional web-developer. I'm very flexible. I have always believed that inviting human effort to the right path and effort can be the key to human success.</p>
+                     <p class="lead">All information is available on my CV by downloading my CV You can find out all info about me.
+                    </p>
+                     <p class="lead">
+                        I have completed many projects that many of my clients were happy with. You can see all my work at the bottom. Your satisfaction is our satisfaction</p>
+                 </div>
+             
+             <div class="about-image">
+                 <img src="images/DSC01507.jpg" alt="">
+             </div>
+            </div>
+            </div>
+    </section>
+    
+    <!-- Section Services -->
+    
+    <section id="services" class="big-light">
+        <div class="container">
+            <h2>Here is what <span class="text-primary">I have to offer </span></h2>
+            <div class="boxes">
+                <div class="box">
+                    <h3><span class="text-primary">Modern layout design </span></h3>
+                    <div class="feature">
+                        <i class="fas fa-check"></i> Modern layout design
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-check"></i> Responsive web design
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-check"></i> Search Engine Optimization
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-check"></i> Browser Compatibility
+                    </div>
+                </div>
+                <div class="box">
+                    <h3><span class="text-primary">Free hosting &amp; aintenance</span></h3>
+                    <div class="feature">
+                        <i class="fas fa-check"></i> Free domaing name
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-check"></i> Free hosting 
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-check"></i> Free SSL certificate 
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-check"></i> personal assisstant
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Testimonials -->
+
+        <section id="testimonials">
+            <div class="testimonials-bg">
+                <div class="container">
+                    <h2>What my clients say <span class="text-primary">About me</span></h2>
+                    <div class="boxes">
+                        <div class="box">
+                            <img src="images/baki.jpg" alt="">
+                            <p>
+                                I've worked with Bektash twice in between. He's a very active person and he does great projects. He has enough experience and does his job properly</p>
+                            <div class="boxes">
+                                <div class="box">
+                                    <img src="images/baki.jpg" alt="">
+                                    <p>
+                                        I've worked with Bektash twice in between. He's a very active person and he does great projects. He has enough experience and does his job properly</p>
+                                    <div class="boxes">
+                                        <div class="box">
+                                            <img src="images/baki.jpg" alt="">
+                                            <p>
+                                                I've worked with Bektash twice in between. He's a very active person and he does great projects. He has enough experience and does his job properly</p>
+                                    </div>
+                                 </div>
+                             </div>
+                        </div>
+                 </section>
+            </section>
+    <!-- Contact -->
+
+
+    <section id="contact"> 
+    <form action="thx.html">
+        <div>
+            <label for="name">Your Name</label>
+            <input type="text" name="name" placeholder="Baktash Waqibeen" required> </div>
+        
+        <div>
+            <label for="eMail">Your Mail</label>
+            <input type="email" name="eMail" placeholder="baktashwaqibeen12@gmali.com"required>
+        </div>
+        
+        <div>
+            <label for="phone">Your Phone</label>
+            <input type="tel" name="phone"  pattern="0[0-7][0-9]{8}" placeholder="07758795022"required>
+        </div>
+        <div>
+            <label for="msg">Your Message</label>
+            <textarea cols=40 rows=10 placeholder="Entrez votre message"></textarea>
+        </div>
+        <div>
+            <input type="submit"/>
+        </div>
+    </form>
+    </section>
+</body>
+</html>
